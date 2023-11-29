@@ -74,7 +74,7 @@ img {
   }
 a.caroussel_lien.actif {
     /* couleur du texte */
-    color: #ff0000;
+    color: #c2b447;
     /* couleur du fond */
-    background-color: #000;
+    background-color: #3a48b5;
 }

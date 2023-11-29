@@ -32,9 +32,9 @@ img {
 }
 .carrousel {
     position: relative;
-  }
+}
   
-  .carrousel_btn {
+.carrousel_btn {
     position: absolute;
     top: 50%;
     top: calc(
@@ -49,12 +49,20 @@ img {
     display: grid;
     place-content: center;
     color: #fff;
-  }
+}
   
-  .carrousel_btn-avant {
+.carrousel_btn-avant {
     left: 0;
-  }
+}
   
-  .carrousel_btn-apres {
+.carrousel_btn-apres {
     right: 0;
+}
+.caroussel_liste-liens {
+    display: flex; /* aligne horizontalement les enfants */
+    justify-content: center; /* centre horizontalement les enfants */
+    margin: 0; /* enlève les marges par défaut */
+    padding: 0; /* enlève les padding par défaut */
+    list-style-type: none; /* enlève les puces par défaut */
+    gap: 1rem; /* espace entre les enfants */
   }

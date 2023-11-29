@@ -3,6 +3,12 @@
     /* change le box model */
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+a:visited {
+    color: #000000;
+}
 img {
       /* image responsive, largeur maxi */
       max-width: 100%;
@@ -66,3 +72,9 @@ img {
     list-style-type: none; /* enlève les puces par défaut */
     gap: 1rem; /* espace entre les enfants */
   }
+a.caroussel_lien.actif {
+    /* couleur du texte */
+    color: #ff0000;
+    /* couleur du fond */
+    background-color: #000;
+}
